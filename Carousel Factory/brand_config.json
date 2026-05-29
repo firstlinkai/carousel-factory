@@ -1,0 +1,19 @@
+{
+    "brand_name": "example.com",
+    "colors": {
+        "primary": "#334488",
+        "secondary": "#cccccc",
+        "background": "#eee"
+    },
+    "fonts": {
+        "title": "assets/fonts/Default-Sans.ttf",
+        "body": "assets/fonts/Default-Sans.ttf"
+    },
+    "layout_settings": {
+        "width": 1080,
+        "height": 1350,
+        "title_y_offset": 500,
+        "body_y_offset": 700,
+        "margin_x": 100
+    }
+}

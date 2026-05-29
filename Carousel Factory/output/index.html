@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Review Gallery</title>
+    <style>
+        body { font-family: system-ui, sans-serif; background-color: #f4f4f5; margin: 0; padding: 2rem; display: flex; flex-direction: column; align-items: center; }
+        h1 { color: #3f3f46; margin-bottom: 2rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; width: 100%; max-width: 1400px; }
+        .slide-container { display: flex; flex-direction: column; align-items: center; }
+        .slide-container span { margin-top: 0.5rem; font-weight: bold; color: #52525b; }
+        img { width: 100%; max-width: 400px; height: auto; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); border-radius: 8px; display: block; }
+    </style>
+</head>
+<body>
+    <h1>Carousel Factory Review</h1>
+    <div class="grid">
+        <div class="slide-container">
+            <img src="slide_01.jpg" alt="slide_01.jpg">
+            <span>slide_01.jpg</span>
+        </div>
+        <div class="slide-container">
+            <img src="slide_02.jpg" alt="slide_02.jpg">
+            <span>slide_02.jpg</span>
+        </div>
+        <div class="slide-container">
+            <img src="slide_03.jpg" alt="slide_03.jpg">
+            <span>slide_03.jpg</span>
+        </div>
+        <div class="slide-container">
+            <img src="slide_04.jpg" alt="slide_04.jpg">
+            <span>slide_04.jpg</span>
+        </div>
+        <div class="slide-container">
+            <img src="slide_05.jpg" alt="slide_05.jpg">
+            <span>slide_05.jpg</span>
+        </div>
+        <div class="slide-container">
+            <img src="slide_06.jpg" alt="slide_06.jpg">
+            <span>slide_06.jpg</span>
+        </div>
+    </div>
+</body>
+</html>

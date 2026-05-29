@@ -1,0 +1,6 @@
+Pillow==10.3.0
+apify-client==1.6.4
+google-generativeai==0.8.3
+fpdf==1.7.2
+beautifulsoup4==4.12.3
+streamlit==1.36.0
